@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.bg {
+    background-color: #1b212f;
+    background-size: cover;
+    height : max-content;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+.productive  img{
+    margin-left: 650px;
+    margin-top: 250px;
+    width: auto;
+    height: auto;
+}
+
+/* Top Navigation List Styling */
+.list ul > li {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(214, 211, 211);
+}
+.list {
+    margin-top: 50px;
+    margin-left: 1400px;
+}
+
+.list ul > li:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bg2 img{
+        margin-top: -80px;
+        margin-left: -1px;
+        width: 2200px;
+        background-size: contain;
+        height: 100%;
+}
+
+.bg2 h2 {
+    color: white;
+    margin-top: -550px;
+    margin-left: 650px;
+    position: absolute;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.bg2 p {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: x-large;
+    margin-left: 700px;
+    position: absolute;
+    margin-top: -350px;
+}
+
+.started {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -230px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #53cbd8;
+    color: white;
+    font-size: 22px;
+    border-style: none;
+    font-weight: 500;
+
+}
+
+.started:hover {
+    background-color: #3572ff;
+    cursor: pointer;
+    color: #1b212f;
+}
